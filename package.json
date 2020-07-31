@@ -1,0 +1,13 @@
+{
+  "name": "headless-browesr-runner",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "cypress": "^4.11.0"
+  },
+  "scripts": {
+    "start": "cypress run --headless",
+    "open": "cypress open"
+  }
+}
