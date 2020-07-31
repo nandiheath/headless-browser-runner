@@ -5,7 +5,7 @@ describe('My First Test', () => {
 
     cy.visit(url);
     cy.get('[type="text"]', {
-      timeout: 10000
+      timeout: 600000
     }).type('Admin');
     cy.get('[type="button"]').click();
     cy.wait(runTime);
