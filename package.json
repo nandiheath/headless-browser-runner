@@ -4,10 +4,12 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "cypress": "^4.11.0"
+    "cypress": "^4.11.0",
+    "http-server": "^0.12.3"
   },
   "scripts": {
     "start": "cypress run --headless",
+    "listen": "http-server .",
     "open": "cypress open"
   }
 }

@@ -4,4 +4,4 @@ workdir /opt
 
 copy . .
 
-CMD ["yarn", "run", "start"]
+CMD ["./start.sh"]
